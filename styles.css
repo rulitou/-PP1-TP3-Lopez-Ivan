@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: arial sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2453e0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.boton {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.boton-contacto {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.boton-contacto:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+.seccion-pausas {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tarjeta-icono {
+    font-size: 32px;
+}
+
+.rutina {
+    background: #e3f2fd;
+    padding: 20px;
+    border-left: 4px solid #2196F3;
+}
+
+.video-contenedor {
+    text-align: center;
+}
+
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.contacto {
+    max-width: 500px;
+    margin: 0 auto; /*para que quede centrado*/
+}
+
+.form-mini {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-mini input, 
+.form-mini textarea {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-mini button {
+    background: #2453e0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-mini button:hover {
+    background: #2980b9;
+}
